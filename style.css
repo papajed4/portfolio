@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navigate {
+    background-color: rgb(102, 103, 105);
+}
+
+nav {
+    background-color: hsl(220, 1%, 41%);
+    color: white;
+}
+
+.logo {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+.profilepic{
+    transition: .7s ease;
+}
+.profilepic:hover {
+    transform: scale(0.9);
+}
+
+.intro {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 3px;
+    transition: .4s;
+}
+
+.intro:hover {
+    color: rgb(156, 97, 97);
+}
+.dropdown{
+    border: none;
+}
+
+.logo span {
+    color: rgb(124, 65, 65);
+}
+
+.firstside {
+    background-color: rgb(247, 248, 250);
+    font-family: "Montserrat", sans-serif;
+}
+
+.social-links a {
+    font-size: 30px;
+    transition: .2s;
+    color: rgb(34, 13, 13);
+    font-weight: 700;
+}
+
+.social-links a:hover {
+    color: rgb(156, 97, 97);
+    margin: 20px;
+}
+
+.repo a {
+    font-size: 30px;
+    color: rgb(34, 13, 13);
+    transition: .2s;
+    font-family: "Montserrat", sans-serif;
+}
+
+.repo a:hover {
+    color: rgb(156, 97, 97);
+    font-size: 35px;
+}
+.cv{
+    background-color:rgb(54, 55, 56) ;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    font-style: italic;
+    transition: .4s;
+    text-decoration: none;
+}
+.cv:hover{
+    background-color: white;
+    color: rgb(41, 42, 43);
+    border: 2px solid rgb(131, 135, 138);
+}
+
+.footer {
+    font-size: 9px;
+    font-family: "Montserrat", sans-serif;
+}
+#second{
+    background-color: rgb(247, 248, 250);
+}
+
+.prev{
+    background-color:rgb(54, 55, 56) ;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    font-style: italic;
+    transition: .4s;
+    text-decoration: none;
+}
+.prev:hover{
+    background-color: white;
+    color: rgb(41, 42, 43);
+    border: 2px solid rgb(131, 135, 138);
+    
+}
+.footer{
+    background-color: rgb(102, 103, 105);
+    color: white;
+}
